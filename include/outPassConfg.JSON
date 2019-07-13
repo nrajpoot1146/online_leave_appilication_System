@@ -1,0 +1,35 @@
+{
+	"exitpass"	:	{
+		"exit_time"	: {
+			"min_hour"	:	8,
+			"min_minute":	0,
+			"max_hour"	:	16,
+			"max_minute":	59
+		},
+		"entry_time"	:	{
+			"min_hour"	:	6,
+			"min_minute":	0,
+			"max_hour"	:	18,
+			"max_minute":	59
+		}
+	},
+	"leave_app"	:	{
+		"time_interval" : 1,
+		"exit_time"	: {
+			"min_hour"	:	0,
+			"min_minute":	0,
+			"max_hour"	:	23,
+			"max_minute":	59
+		},
+		"entry_time"	:	{
+			"min_hour"	:	0,
+			"min_minute":	0,
+			"max_hour"	:	23,
+			"max_minute":	59
+		}
+	},
+	"date_of_birth"	:	{
+		"min_date"	:	"",
+		"max_date"	:	""
+	}
+}
